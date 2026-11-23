@@ -27,6 +27,6 @@ public class FactoryController {
     @GetMapping("/pay")
     public String getPaymentType(@RequestParam("type") String type) {
         log.info("=>>>>>>>>>>>>>>>> factory =>>>>>>>>>>> {}", factory);
-        return factory.get(type).getPaymentType();
+        return factory.get(type).getPaymentType();;
     }
 }
