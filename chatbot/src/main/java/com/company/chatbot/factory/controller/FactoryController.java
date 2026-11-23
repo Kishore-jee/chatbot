@@ -11,7 +11,7 @@ import java.util.Map;
 
 @RestController()
 @NoArgsConstructor
-@RequestMapping("/factory2")
+@RequestMapping("/factory3")
 @Slf4j
 public class FactoryController {
 
